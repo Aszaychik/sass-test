@@ -1,0 +1,79 @@
+// _base.scss
+$font-stack: Helvetica, sans-serif;
+$primary-color: tomato;
+$secondary-color: #ffff;
+
+body {
+  font: 100% $font-stack;
+  min-height: 100vh;
+  max-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 20vh;
+}
+
+nav {
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3px;
+    width: 25%;
+    a:link {
+      color: $secondary-color;
+    }
+  }
+}
+
+main {
+  height: 72.5vh;
+}
+
+article {
+  color: $primary-color;
+  gap: 24px;
+  padding: 24px;
+  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    img {
+      border-radius: 24px;
+      -webkit-border-radius: 24px;
+      -moz-border-radius: 24px;
+      -ms-border-radius: 24px;
+      -o-border-radius: 24px;
+    }
+    img:hover {
+      width: 240px;
+      height: 240px;
+      transition: ease-in-out;
+      -webkit-transition: ease-in-out;
+      -moz-transition: ease-in-out;
+      -ms-transition: ease-in-out;
+      -o-transition: ease-in-out;
+    }
+  }
+}
+
+footer {
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: 12px;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

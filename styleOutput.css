@@ -1,0 +1,75 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  min-height: 100vh;
+  max-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 20vh;
+}
+
+nav {
+  background-color: tomato;
+  color: white;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3px;
+  width: 25%;
+}
+nav ul a:link {
+  color: white;
+}
+
+main {
+  height: 72.5vh;
+}
+
+article {
+  color: tomato;
+  gap: 24px;
+  padding: 24px;
+}
+article figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+article figure img {
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+article figure img:hover {
+  width: 240px;
+  height: 240px;
+  transition: ease-in-out;
+  -webkit-transition: ease-in-out;
+  -moz-transition: ease-in-out;
+  -ms-transition: ease-in-out;
+  -o-transition: ease-in-out;
+}
+
+footer {
+  background-color: tomato;
+  color: white;
+  padding: 12px;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styleOutput.css.map */
