@@ -6,11 +6,8 @@ body {
   margin: 0;
 }
 
-header {
-  height: 20vh;
-}
-
 nav {
+  height: 10vh;
   background-color: tomato;
   color: white;
   padding: 12px;
@@ -30,13 +27,14 @@ nav ul a:link {
 }
 
 main {
-  height: 72.5vh;
+  height: 80.2vh;
 }
 
 article {
   color: tomato;
   gap: 24px;
   padding: 24px;
+  top: 0;
 }
 article figure {
   display: flex;
